@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Movie Search & Watchlist</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header>
+  <h1>Movie Discovery</h1>
+  <div>
+    <input type="text" id="searchInput" placeholder="Search for movies..." />
+    <button id="searchBtn">Search</button>
+    <button id="clearBtn">Clear Results</button>
+    <button id="themeToggle">Toggle Dark Mode</button>
+    <span id="charCount">Chars: 0</span>
+  </div>
+</header>
+
+<section id="searchStatus"></section>
+<section id="moviesContainer"></section>
+
+<h2>My Watchlist (this session)</h2>
+<div id="watchlistContainer"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
